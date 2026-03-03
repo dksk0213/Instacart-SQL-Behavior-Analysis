@@ -18,7 +18,7 @@ This project analyzes 30M+ grocery transactions to understand how customer purch
 |---|---|
 | Reorder rate by activity | ![](figures/reorder_by_activity.png) |
 | Reorder vs order progression | ![](figures/reorder_vs_progression.png) |
-| Department lift heatmap | ![](figures/department_lift_heatmap_clustered.png) |
+| Department lift heatmap | ![](figures/department_lift_heatmap.png) |
 | Order continuation curve | ![](figures/retention_by_order_progression.png) |
 
 ## Repo Guide
