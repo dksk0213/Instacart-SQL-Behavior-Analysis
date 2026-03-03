@@ -21,18 +21,15 @@ This project analyzes 30M+ grocery transactions to understand how customer purch
 | Department lift heatmap | ![](figures/department_lift_heatmap.png) |
 | Order continuation curve | ![](figures/retention_by_order_progression.png) |
 
-## Repo Guide
-- `sql/` — all SQL scripts (schema, feature tables, analysis queries)
-- `figures/` — exported charts used in README/website
 
 ## How to Reproduce (high level)
 1. Load the Instacart CSVs into PostgreSQL (see `sql/01_load_data.md`).
 2. Create feature tables and views (see `sql/02_feature_tables.sql`).
-3. Run analysis queries + generate plots (see `notebooks/`).
+3. Run analysis queries + generate plots
 
 ## Notes / Limitations
 - The Kaggle Instacart dataset is structured for reorder prediction and consists of repeat customers; it is not a full acquisition/churn dataset.
 
 ## Credits
 - Dataset: Instacart via Kaggle.
-- Project implementation and analysis: [Your Name].
+- Project implementation and analysis: [SangHyun Kim].
