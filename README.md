@@ -23,9 +23,7 @@ This project analyzes 30M+ grocery transactions to understand how customer purch
 
 ## Repo Guide
 - `sql/` — all SQL scripts (schema, feature tables, analysis queries)
-- `notebooks/` — analysis + visualization notebooks
 - `figures/` — exported charts used in README/website
-- `src/` — helper code for DB connection and plotting
 
 ## How to Reproduce (high level)
 1. Load the Instacart CSVs into PostgreSQL (see `sql/01_load_data.md`).
